@@ -12,9 +12,9 @@
 
     <TextView
         android:background="@drawable/btn"
-        android:layout_width="99dp"
-        android:layout_height="122dp"
-        android:text="Submit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Start"
         android:gravity="center"
         android:textSize="18dp"
         android:textColor="@color/black"
