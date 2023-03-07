@@ -25,12 +25,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Company"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
             android:hint="Company Name"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -45,12 +47,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Experience"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
             android:hint="Experience"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -65,11 +69,13 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Position"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
+            android:inputType="text"
             android:hint="Position"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -77,6 +83,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/btnNext2"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_margin="10dp"

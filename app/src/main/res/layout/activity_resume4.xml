@@ -26,12 +26,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/School"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
             android:hint="School Name"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -45,12 +47,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Per"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background="@null"
             android:hint="Percentage"
+            android:inputType="numberDecimal"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -64,12 +68,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background="@null"
             android:hint="Board"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -83,12 +89,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Collage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background="@null"
             android:hint="Collage Name"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -102,12 +110,14 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Grade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background="@null"
             android:hint="Grade"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -121,18 +131,21 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/University"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background="@null"
             android:hint="University"
+            android:inputType="text"
             android:textSize="18dp"
             android:textStyle="bold" />
 
     </LinearLayout>
 
     <TextView
+        android:id="@+id/btnNext3"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_margin="10dp"

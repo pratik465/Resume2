@@ -25,6 +25,7 @@
         android:orientation="vertical">
 
         <CheckBox
+            android:id="@+id/Cricket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -33,6 +34,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Movies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -41,6 +43,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Carom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -49,6 +52,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Kabbadi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -57,6 +61,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Reading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -65,6 +70,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Writing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -73,6 +79,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Traveling"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -81,6 +88,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Hockey"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -89,6 +97,7 @@
         </CheckBox>
 
         <CheckBox
+            android:id="@+id/Singing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -97,6 +106,7 @@
         </CheckBox>
 
         <TextView
+            android:id="@+id/btnNext4"
             android:layout_gravity="center"
             android:layout_width="100dp"
             android:layout_height="50dp"

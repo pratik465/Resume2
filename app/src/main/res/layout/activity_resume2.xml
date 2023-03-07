@@ -27,11 +27,13 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/Name"
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
             android:hint="Enter Name"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -46,13 +48,15 @@
         android:gravity="center">
 
         <EditText
+            android:id="@+id/Number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
             android:hint="Enter Number"
             android:textSize="18dp"
+            android:inputType="number"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -66,11 +70,13 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/Address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:background=" @null"
+            android:inputType="text"
             android:hint="Enter address"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -86,11 +92,13 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginLeft="16dp"
-            android:background=" null"
+            android:inputType="text"
+            android:background=" @null"
             android:hint="Enter Email"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -98,6 +106,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/btnNext"
         android:background="@drawable/btn"
         android:layout_width="150dp"
         android:layout_height="50dp"
