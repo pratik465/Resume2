@@ -83,7 +83,7 @@ public class Resume5 extends AppCompatActivity {
                     intent.putExtra("writing", writing);
                     intent.putExtra("hockey", hockey);
                     intent.putExtra("singing", singing);
-                    intent.putExtra("traveing", traveling);
+                    intent.putExtra("traveling", traveling);
                     intent.putExtra("reading", reading);
                     intent.putExtra("kabbadi", kabbadi);
                     startActivity(intent);

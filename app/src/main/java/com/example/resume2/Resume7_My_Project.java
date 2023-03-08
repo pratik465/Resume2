@@ -32,14 +32,16 @@ public class Resume7_My_Project extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String project = Project.getText().toString();
-                editor.putString("projects",project);
+                editor.putString("projects", project);
                 editor.commit();
 
-                if (project.isEmpty()){
+                if (project.isEmpty()) {
                     Project.setError("Please enter Your Projects");
-                }else {
-                    Intent intent = new Intent(Resume7_My_Project.this,Resume8.class);
-                    intent.putExtra("projects",project);
+                } else {
+
+
+                    Intent intent = new Intent(Resume7_My_Project.this, Resume8.class);
+                    intent.putExtra("projects", project);
                     startActivity(intent);
                 }
             }
