@@ -3,6 +3,7 @@ package com.example.resume2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -88,6 +89,28 @@ public class Resume8 extends AppCompatActivity {
         txproject.setText(project);
 
         txskill.setText(skill);
+
+        Intent intent = new Intent(Resume8.this,Mix_Projects.class);
+        intent.putExtra("name",name);
+        intent.putExtra("number",number);
+        intent.putExtra("address",address);
+
+        intent.putExtra("company",company);
+        intent.putExtra("experience",experience);
+        intent.putExtra("position",position);
+
+        intent.putExtra("school",school);
+        intent.putExtra("percentage",percentage);
+        intent.putExtra("board",board);
+        intent.putExtra("collage",collage);
+        intent.putExtra("grade",grade);
+        intent.putExtra("university",university);
+
+        intent.putExtra("project",project);
+
+        intent.putExtra("skill",skill);
+        startActivity(intent);
+
 
 
     }

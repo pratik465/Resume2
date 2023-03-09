@@ -64,7 +64,7 @@ public class Resume4 extends AppCompatActivity {
                 }else if (university.isEmpty()){
                     University.setError("Please Enter University Name!!");
                 }else {
-                    Intent intent = new Intent(Resume4.this,Resume5.class);
+                    Intent intent = new Intent(Resume4.this,Resume6.class);
                     intent.putExtra("school",school);
                     intent.putExtra("per",per);
                     intent.putExtra("board",board);
