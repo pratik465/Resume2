@@ -40,7 +40,7 @@ public class Resume7_My_Project extends AppCompatActivity {
                 } else {
 
 
-                    Intent intent = new Intent(Resume7_My_Project.this, Resume8.class);
+                    Intent intent = new Intent(Resume7_My_Project.this, Mix_Projects.class);
                     intent.putExtra("projects", project);
                     startActivity(intent);
                 }

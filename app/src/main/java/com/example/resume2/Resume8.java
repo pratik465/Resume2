@@ -90,26 +90,6 @@ public class Resume8 extends AppCompatActivity {
 
         txskill.setText(skill);
 
-        Intent intent = new Intent(Resume8.this,Mix_Projects.class);
-        intent.putExtra("name",name);
-        intent.putExtra("number",number);
-        intent.putExtra("address",address);
-
-        intent.putExtra("company",company);
-        intent.putExtra("experience",experience);
-        intent.putExtra("position",position);
-
-        intent.putExtra("school",school);
-        intent.putExtra("percentage",percentage);
-        intent.putExtra("board",board);
-        intent.putExtra("collage",collage);
-        intent.putExtra("grade",grade);
-        intent.putExtra("university",university);
-
-        intent.putExtra("project",project);
-
-        intent.putExtra("skill",skill);
-        startActivity(intent);
 
 
 

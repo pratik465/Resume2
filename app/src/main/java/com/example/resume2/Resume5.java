@@ -68,31 +68,31 @@ public class Resume5 extends AppCompatActivity {
                     Cricket = findViewById(R.id.Cricket);
                     Hobbies = findViewById(R.id.Hobbies);
 
-                    String cricket = Cricket.getText().toString();
-                    String movies = Movies.getText().toString();
-                    String carom = Carom.getText().toString();
-                    String writing = Writing.getText().toString();
-                    String hockey = Hockey.getText().toString();
-                    String singing = Singing.getText().toString();
-                    String traveling = Traveling.getText().toString();
-                    String reading = Reading.getText().toString();
-                    String kabbadi = Kabbadi.getText().toString();
-                    String hobbies = Hobbies.getText().toString();
+//                    String cricket = Cricket.getText().toString();
+//                    String movies = Movies.getText().toString();
+//                    String carom = Carom.getText().toString();
+//                    String writing = Writing.getText().toString();
+//                    String hockey = Hockey.getText().toString();
+//                    String singing = Singing.getText().toString();
+//                    String traveling = Traveling.getText().toString();
+//                    String reading = Reading.getText().toString();
+//                    String kabbadi = Kabbadi.getText().toString();
+//                    String hobbies = Hobbies.getText().toString();
+//
+//                    editor.putString("cricket", s);
+//                    editor.putString("movies", s);
+//                    editor.putString("carom", s);
+//                    editor.putString("writing", s);
+//                    editor.putString("hockey", s);
+//                    editor.putString("singing", s);
+//                    editor.putString("traveling", s);
+//                    editor.putString("reading", s);
+//                    editor.putString("kabbadi", s);
+//                    editor.putString("Hobbies", s);
+//                    editor.commit();
 
-                    editor.putString("cricket", s);
-                    editor.putString("movies", s);
-                    editor.putString("carom", s);
-                    editor.putString("writing", s);
-                    editor.putString("hockey", s);
-                    editor.putString("singing", s);
-                    editor.putString("traveling", s);
-                    editor.putString("reading", s);
-                    editor.putString("kabbadi", s);
-                    editor.putString("Hobbies", s);
-                    editor.commit();
 
-
-//                    Intent intent = new Intent(Resume5.this, Resume6.class);
+                    Intent intent = new Intent(Resume5.this, Resume6.class);
 //                    intent.putExtra("cricket", s);
 //                    intent.putExtra("movies", s);
 //                    intent.putExtra("carom", s);
@@ -103,7 +103,7 @@ public class Resume5 extends AppCompatActivity {
 //                    intent.putExtra("reading", s);
 //                    intent.putExtra("kabbadi", s);
 //                    intent.putExtra("hobbies",s);
-//                    startActivity(intent);
+                    startActivity(intent);
 //
                 }
 

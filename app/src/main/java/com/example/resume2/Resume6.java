@@ -34,7 +34,7 @@ public class Resume6 extends AppCompatActivity {
             public void onClick(View view) {
 
                 String skill = Skill.getText().toString();
-                editor.putString("skilll",skill);
+                editor.putString("skill",skill);
                 editor.commit();
 
                 if (skill.isEmpty()){

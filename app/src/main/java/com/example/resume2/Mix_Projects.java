@@ -34,6 +34,7 @@ public class Mix_Projects extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(Mix_Projects.this,Resume8.class);
+                startActivity(intent);
 
             }
         });
