@@ -75,6 +75,8 @@ public class Resume8 extends AppCompatActivity {
         TEXTaddress.setText(address);
         TEXTemail.setText(email);
 
+
+
         TEXTcompany.setText(company);
         TEXTexperience.setText(experience);
         TEXTposition.setText(position);
