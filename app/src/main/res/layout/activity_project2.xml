@@ -59,7 +59,7 @@
                     android:paddingLeft="30dp"
                     android:paddingTop="10dp"
                     android:text="Address"
-                    android:textSize="14dp" />
+                    android:textSize="15dp" />
 
                 <TextView
                     android:id="@+id/txtemail"
