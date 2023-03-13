@@ -11,11 +11,11 @@ import android.widget.TextView;
 public class Resume8 extends AppCompatActivity {
 
 
-    TextView TEXTname, TEXTnumber, TEXTaddress, TEXTemail, TEXThobbies;
-    TextView TEXTcompany, TEXTexperience, TEXTposition;
-    TextView TEXTschool, TEXTpercentage, TEXTboard, TEXTcollage, TEXTgrade, TEXTuniversity;
-    TextView TEXTproject;
-    TextView TEXTskill;
+    TextView txname, txnumber, txaddress, txemail, txhobbies;
+    TextView txcompany, txexperience, txposition;
+    TextView txschool, txpercentage, txboard, txcollage, txgrade, txuniversity;
+    TextView txproject;
+    TextView txskill;
 
     SharedPreferences preferences;
 
@@ -27,25 +27,25 @@ public class Resume8 extends AppCompatActivity {
 
         preferences = getSharedPreferences("AData", 0);
 
-        TEXTname = findViewById(R.id.TEXTname);
-        TEXTnumber = findViewById(R.id.TEXTnumber);
-        TEXTaddress = findViewById(R.id.TEXTaddress);
-        TEXTemail = findViewById(R.id.TEXTemail);
+        txname = findViewById(R.id.txname);
+        txnumber = findViewById(R.id.txnumber);
+        txaddress = findViewById(R.id.txaddress);
+        txemail = findViewById(R.id.txemail);
 
-        TEXTcompany = findViewById(R.id.TEXTcompany);
-        TEXTexperience = findViewById(R.id.TEXTexperience);
-        TEXTposition = findViewById(R.id.TEXTposition);
+        txcompany = findViewById(R.id.txcompany);
+        txexperience = findViewById(R.id.txexperience);
+        txposition = findViewById(R.id.txposition);
 
-        TEXTschool = findViewById(R.id.TEXTschool);
-        TEXTpercentage = findViewById(R.id.TEXTpercentage);
-        TEXTboard = findViewById(R.id.TEXTboard);
-        TEXTcollage = findViewById(R.id.TEXTcollage);
-        TEXTgrade = findViewById(R.id.TEXTgrade);
-        TEXTuniversity = findViewById(R.id.TEXTuniversity);
+        txschool = findViewById(R.id.txschool);
+        txpercentage = findViewById(R.id.txpercentage);
+        txboard = findViewById(R.id.txboard);
+        txcollage = findViewById(R.id.txcollage);
+        txgrade = findViewById(R.id.txgrade);
+        txuniversity = findViewById(R.id.txuniversity);
 
-        TEXTproject = findViewById(R.id.TEXTproject);
+        txproject = findViewById(R.id.txproject);
 
-        TEXTskill = findViewById(R.id.TEXTskill);
+        txskill = findViewById(R.id.txskill);
 
 
         String name = preferences.getString("name", "");
@@ -58,7 +58,7 @@ public class Resume8 extends AppCompatActivity {
         String position = preferences.getString("position", "");
 
         String school = preferences.getString("school", "");
-        String per = preferences.getString("percentage", "");
+        String percentage = preferences.getString("percentage", "");
         String board = preferences.getString("board", "");
         String collage = preferences.getString("collage", "");
         String grade = preferences.getString("grade", "");
@@ -70,28 +70,28 @@ public class Resume8 extends AppCompatActivity {
         String skill = preferences.getString("skill", "");
 
 
-        TEXTname.setText(name);
-        TEXTnumber.setText(number);
-        TEXTaddress.setText(address);
-        TEXTemail.setText(email);
+        txname.setText(name);
+        txnumber.setText(number);
+        txaddress.setText(address);
+        txemail.setText(email);
+
+        txcompany.setText(company);
+        txexperience.setText(experience);
+        txposition.setText(position);
+
+        txschool.setText(school);
+        txpercentage.setText(percentage);
+        txboard.setText(board);
+        txcollage.setText(collage);
+        txgrade.setText(grade);
+        txuniversity.setText(university);
+
+        txproject.setText(project);
+
+        txskill.setText(skill);
 
 
 
-        TEXTcompany.setText(company);
-        TEXTexperience.setText(experience);
-        TEXTposition.setText(position);
-
-
-        TEXTschool.setText(school);
-        TEXTpercentage.setText(per);
-        TEXTboard.setText(board);
-        TEXTcollage.setText(collage);
-        TEXTgrade.setText(grade);
-        TEXTuniversity.setText(university);
-
-        TEXTproject.setText(project);
-
-        TEXTskill.setText(skill);
 
     }
 }
