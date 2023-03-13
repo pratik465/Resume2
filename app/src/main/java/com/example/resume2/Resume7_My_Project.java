@@ -6,12 +6,13 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 public class Resume7_My_Project extends AppCompatActivity {
 
-    TextView btnNext6,Project;
+    TextView btnNext6,Projects;
 
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
@@ -26,21 +27,20 @@ public class Resume7_My_Project extends AppCompatActivity {
         editor = preferences.edit();
 
         btnNext6 = findViewById(R.id.btnNext6);
-        Project = findViewById(R.id.Projects);
+        Projects = findViewById(R.id.Projects);
 
         btnNext6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String project = Project.getText().toString();
+                String project = Projects.getText().toString();
                 editor.putString("projects", project);
                 editor.commit();
 
                 if (project.isEmpty()) {
-                    Project.setError("Please enter Your Projects");
+                    Projects.setError("Please enter Your Projects");
                 } else {
 
-
-                    Intent intent = new Intent(Resume7_My_Project.this, Resume8.class);
+                    Intent intent = new Intent(Resume7_My_Project.this, Mix_Projects.class);
                     intent.putExtra("projects", project);
                     startActivity(intent);
                 }

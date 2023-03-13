@@ -2,4 +2,13 @@
 <resources>
     <item name="Hobbies" type="id" />
     <item name="txexperience" type="id" />
+    <item name="Project" type="id" />
+    <item name="TEXTschool" type="id" />
+    <item name="TEXTaddress" type="id" />
+    <item name="TEXTemail" type="id" />
+    <item name="TEXTcompany" type="id" />
+    <item name="TEXTpercentage" type="id" />
+    <item name="TEXTboard" type="id" />
+    <item name="TEXTcollage" type="id" />
+    <item name="TEXTgrade" type="id" />
 </resources>

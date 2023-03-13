@@ -56,7 +56,7 @@
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/txname"
+                        android:id="@+id/TEXTname"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -68,7 +68,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txnumber"
+                        android:id="@+id/TEXTnumber"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -80,7 +80,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txaddress"
+                        android:id="@+id/tTEXTaddress"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -92,7 +92,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txemail"
+                        android:id="@+id/tTEXTemail"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -124,7 +124,7 @@
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/txcompany"
+                        android:id="@+id/tTEXTcompany"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -135,7 +135,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/experience"
+                        android:id="@+id/TEXTexperience"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -146,7 +146,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txposition"
+                        android:id="@+id/TEXTposition"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -175,7 +175,7 @@
                         android:text="Education Qualification"/>
 
                     <TextView
-                        android:id="@+id/txschool"
+                        android:id="@+id/tTEXTschool"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -186,7 +186,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txpercentage"
+                        android:id="@+id/tTEXTpercentage"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -197,7 +197,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txboard"
+                        android:id="@+id/tTEXTboard"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -208,7 +208,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                    android:id="@+id/txcollage"
+                    android:id="@+id/tTEXTcollage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="5dp"
@@ -219,7 +219,7 @@
                     android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txgrade"
+                        android:id="@+id/tTEXTgrade"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -230,7 +230,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/txuniversity"
+                        android:id="@+id/TEXTuniversity"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -269,7 +269,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/txhobbies"
+                        android:id="@+id/TEXThobbies"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1.1"
@@ -300,7 +300,7 @@
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/txskill"
+                        android:id="@+id/TEXTskill"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
 
@@ -332,7 +332,7 @@
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/txproject"
+                        android:id="@+id/TEXTproject"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1.3"
