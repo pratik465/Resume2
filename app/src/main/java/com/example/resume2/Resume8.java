@@ -81,6 +81,7 @@ public class Resume8 extends AppCompatActivity {
         TEXTexperience.setText(experience);
         TEXTposition.setText(position);
 
+
         TEXTschool.setText(school);
         TEXTpercentage.setText(per);
         TEXTboard.setText(board);
