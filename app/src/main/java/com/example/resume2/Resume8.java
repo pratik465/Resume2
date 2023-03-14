@@ -1,9 +1,7 @@
 package com.example.resume2;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -11,13 +9,14 @@ import android.widget.TextView;
 public class Resume8 extends AppCompatActivity {
 
 
-    TextView txname, txnumber, txaddress, txemail, txhobbies;
-    TextView txcompany, txexperience, txposition;
-    TextView txschool, txpercentage, txboard, txcollage, txgrade, txuniversity;
-    TextView txproject;
-    TextView txskill;
+    TextView txtnumber, txtaddress, txtemail, txtname, txthobby;
+    TextView txtcompany, txtexp, txtposition;
+    TextView txtschool, txtper, txtboard, txtcollage, txtgrade, txtuniversity;
+    TextView txtproject;
+    TextView txtskill;
 
     SharedPreferences preferences;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -27,25 +26,25 @@ public class Resume8 extends AppCompatActivity {
 
         preferences = getSharedPreferences("AData", 0);
 
-        txname = findViewById(R.id.txname);
-        txnumber = findViewById(R.id.txnumber);
-        txaddress = findViewById(R.id.txaddress);
-        txemail = findViewById(R.id.txemail);
+        txtnumber = findViewById(R.id.txtnumber);
+        txtname = findViewById(R.id.txtname);
+        txtaddress = findViewById(R.id.txtaddress);
+        txtemail = findViewById(R.id.txtemail);
 
-        txcompany = findViewById(R.id.txcompany);
-        txexperience = findViewById(R.id.txexperience);
-        txposition = findViewById(R.id.txposition);
+        txtcompany = findViewById(R.id.txtcompany);
+        txtexp = findViewById(R.id.txtexp);
+        txtposition = findViewById(R.id.txtposition);
 
-        txschool = findViewById(R.id.txschool);
-        txpercentage = findViewById(R.id.txpercentage);
-        txboard = findViewById(R.id.txboard);
-        txcollage = findViewById(R.id.txcollage);
-        txgrade = findViewById(R.id.txgrade);
-        txuniversity = findViewById(R.id.txuniversity);
+        txtschool = findViewById(R.id.txtschool);
+        txtper = findViewById(R.id.txtper);
+        txtboard = findViewById(R.id.txtboard);
+        txtcollage = findViewById(R.id.txtcollage);
+        txtgrade = findViewById(R.id.txtgrade);
+        txtuniversity = findViewById(R.id.txtuniversity);
 
-        txproject = findViewById(R.id.txproject);
+        txtproject = findViewById(R.id.txtproject);
 
-        txskill = findViewById(R.id.txskill);
+        txtskill = findViewById(R.id.txtskill);
 
 
         String name = preferences.getString("name", "");
@@ -58,7 +57,7 @@ public class Resume8 extends AppCompatActivity {
         String position = preferences.getString("position", "");
 
         String school = preferences.getString("school", "");
-        String percentage = preferences.getString("percentage", "");
+        String per = preferences.getString("percentage", "");
         String board = preferences.getString("board", "");
         String collage = preferences.getString("collage", "");
         String grade = preferences.getString("grade", "");
@@ -70,28 +69,25 @@ public class Resume8 extends AppCompatActivity {
         String skill = preferences.getString("skill", "");
 
 
-        txname.setText(name);
-        txnumber.setText(number);
-        txaddress.setText(address);
-        txemail.setText(email);
+        txtname.setText(name);
+        txtnumber.setText(number);
+        txtaddress.setText(address);
+        txtemail.setText(email);
 
-        txcompany.setText(company);
-        txexperience.setText(experience);
-        txposition.setText(position);
+        txtcompany.setText(company);
+        txtexp.setText(experience);
+        txtposition.setText(position);
 
-        txschool.setText(school);
-        txpercentage.setText(percentage);
-        txboard.setText(board);
-        txcollage.setText(collage);
-        txgrade.setText(grade);
-        txuniversity.setText(university);
+        txtschool.setText(school);
+        txtper.setText(per);
+        txtboard.setText(board);
+        txtcollage.setText(collage);
+        txtgrade.setText(grade);
+        txtuniversity.setText(university);
 
-        txproject.setText(project);
+        txtproject.setText(project);
 
-        txskill.setText(skill);
-
-
-
+        txtskill.setText(skill);
 
     }
 }

@@ -11,4 +11,19 @@
     <item name="TEXTboard" type="id" />
     <item name="TEXTcollage" type="id" />
     <item name="TEXTgrade" type="id" />
+    <item name="txname" type="id" />
+    <item name="txnumber" type="id" />
+    <item name="txaddress" type="id" />
+    <item name="txemail" type="id" />
+    <item name="txcompany" type="id" />
+    <item name="txposition" type="id" />
+    <item name="txschool" type="id" />
+    <item name="txpercentage" type="id" />
+    <item name="txboard" type="id" />
+    <item name="txcollage" type="id" />
+    <item name="txgrade" type="id" />
+    <item name="txuniversity" type="id" />
+    <item name="txproject" type="id" />
+    <item name="txskill" type="id" />
+    <item name="txtpercentage" type="id" />
 </resources>

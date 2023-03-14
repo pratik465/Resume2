@@ -40,9 +40,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
                     android:layout_weight="1"
                     android:background="@color/black"
-                    android:layout_marginRight="5dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -56,7 +56,7 @@
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/TEXTname"
+                        android:id="@+id/txtname"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -68,7 +68,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/TEXTnumber"
+                        android:id="@+id/txtnumber"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -80,7 +80,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTaddress"
+                        android:id="@+id/txtaddress"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -92,7 +92,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTemail"
+                        android:id="@+id/txtemail"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -117,14 +117,14 @@
                         android:layout_height="match_parent"
                         android:layout_marginTop="10dp"
                         android:layout_weight="1"
-                        android:text="Work History"
                         android:background="@drawable/fvjkn"
                         android:paddingLeft="10dp"
+                        android:text="Work History"
                         android:textColor="@color/white"
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTcompany"
+                        android:id="@+id/txtcompany"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -135,7 +135,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/TEXTexperience"
+                        android:id="@+id/txtexp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -146,7 +146,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/TEXTposition"
+                        android:id="@+id/txtposition"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -170,12 +170,12 @@
                         android:layout_weight="1"
                         android:background="@drawable/fvjkn"
                         android:paddingLeft="10dp"
+                        android:text="Education Qualification"
                         android:textColor="@color/white"
-                        android:textSize="18dp"
-                        android:text="Education Qualification"/>
+                        android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTschool"
+                        android:id="@+id/txtschool"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -186,7 +186,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTpercentage"
+                        android:id="@+id/txtpercentage"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -197,7 +197,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTboard"
+                        android:id="@+id/txtboard"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -208,18 +208,18 @@
                         android:textSize="14dp" />
 
                     <TextView
-                    android:id="@+id/tTEXTcollage"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="5dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="20dp"
-                    android:text="Collage Name"
-                    android:textColor="@color/white"
-                    android:textSize="14dp" />
+                        android:id="@+id/txtcollage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:text="Collage Name"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/tTEXTgrade"
+                        android:id="@+id/txtgrade"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -230,7 +230,7 @@
                         android:textSize="14dp" />
 
                     <TextView
-                        android:id="@+id/TEXTuniversity"
+                        android:id="@+id/txtuniversity"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="5dp"
@@ -261,24 +261,22 @@
                         android:layout_height="match_parent"
                         android:layout_weight="4.4"
                         android:background="@drawable/btnproject"
+                        android:backgroundTint="#F4DAE3"
                         android:paddingLeft="10dp"
                         android:text="Hobbies"
                         android:textColor="@color/black"
-                        android:backgroundTint="#F4DAE3"
-                        android:textSize="18dp"
-                        />
+                        android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/TEXThobbies"
+                        android:id="@+id/txthobbies"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1.1"
+                        android:background="#F1EAE9"
                         android:paddingLeft="20dp"
                         android:text="Hobbies"
                         android:textColor="@color/black"
-                        android:background="#F1EAE9"
-                        android:textSize="14dp"
-                        />
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
@@ -293,22 +291,22 @@
                         android:layout_height="match_parent"
                         android:layout_weight="4"
                         android:background="@drawable/btnproject"
+                        android:backgroundTint="#F4DAE3"
                         android:paddingLeft="10dp"
                         android:text="Skill"
-                        android:backgroundTint="#F4DAE3"
                         android:textColor="@color/black"
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/TEXTskill"
+                        android:id="@+id/txtskill"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
 
                         android:layout_weight="1.3"
+                        android:background="#F1EAE9"
                         android:paddingLeft="20dp"
                         android:text="Skills"
                         android:textColor="@color/black"
-                        android:background="#F1EAE9"
                         android:textSize="14dp" />
 
                 </LinearLayout>
@@ -325,23 +323,22 @@
 
                         android:layout_weight="4"
                         android:background="@drawable/btnproject"
+                        android:backgroundTint="#F4DAE3"
                         android:paddingLeft="10dp"
                         android:text="Projects"
                         android:textColor="@color/black"
-                        android:backgroundTint="#F4DAE3"
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/TEXTproject"
+                        android:id="@+id/txtproject"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1.3"
+                        android:background="#F1EAE9"
                         android:paddingLeft="20dp"
                         android:text="My Projects"
                         android:textColor="@color/black"
-                        android:background="#F1EAE9"
-                        android:textSize="14dp"
-                        />
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
